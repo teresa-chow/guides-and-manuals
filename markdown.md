@@ -129,9 +129,9 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
 
   **_all in italics and bold_**
 
-  _all in italics and **part in bold**_
+  _all in italics and **nested bold**_
 
-  **all in bold and _part in italics_**
+  **all in bold and _nested italics_**
   ```
 
   </br>
@@ -158,7 +158,7 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
   > _Hyperlinks_ are used as a way to navigate online content, pointing to a specific location. In the present context, we can use them either to link to different pages, documents, _etc._, or to sections within our own document.
 
 ```markdown
-[text](link address)
+[text](www.link-address.com)
 
 [text](#name-of-section)
 
