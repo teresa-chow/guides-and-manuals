@@ -5,7 +5,6 @@ _Having been recently introduced to GitHub and the world of programming, I rapid
 
 _This guide was developed from that understanding, with the hope it can be helpful to anyone else out there._
 
-> [!NOTE]
 > **Disclaimer:** _I come from a background in design, so I also cry a little when I see unclear information hierarchy. Plus, I'm a firm believer that allocating time for organization and communication can boost efficiency in the future. Feedback is more than welcome!_
 ___
 
