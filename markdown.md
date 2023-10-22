@@ -29,7 +29,8 @@ ___
   14. [Images](#images)
 - [Additional formatting using HTML](#additional-formatting-using-html)
   1. [Superscript and Subscript](#superscript-and-subscript)
-  2. [Toggle sections](#toggle-sections)
+  2. [Aligning elements](#aligning-elements)
+  3. [Toggle sections](#toggle-sections)
 - [References](#references)
 
 
@@ -487,6 +488,35 @@ ___
   This is a <sup>superscript</sup> text.
 
   This is a <sub>subscript</sub> text.
+
+</details>
+
+<details>
+  <summary><h3>Aligning elements</h3></summary>
+
+  > The `align` attribute can have one of the following values: `left`, `right`, `center` and `justify`. It can be used with different elements.
+
+  ```html
+  <p align="left">Left-aligned paragraph</p>
+ 
+  <div align="center"><h3>Center-aligned heading</h3><p>and paragraph within division (section)</p></div>
+ 
+  <h4 align="right">Right-aligned heading</h4>
+
+  <p align="justify"><em>Justified and emphasized text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
+  ```
+  
+  </br>
+
+  > Here is how it it displayed:
+
+  <p align="left">Left-aligned paragraph</p>
+  
+  <div align="center"><h3>Center-aligned heading</h3><p>and paragraph within division (section)</p></div>
+ 
+  <h4 align="right">Right-aligned heading</h4>
+
+  <p align="justify"><em>Justified and emphasized text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
 
 </details>
 
