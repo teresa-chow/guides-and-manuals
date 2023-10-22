@@ -15,7 +15,7 @@ ___
 - [How to use it](#how)
   1. [Headings](#headings)
   2. [Paragraphs](#paragraphs)
-  3. [Italics and Bold](#italics-and-bold)
+  3. [Italics, Bold and Strikethrough](#italics-bold-and-strikethrough)
   4. [Links](#links)
   5. [Lists](#lists)
   6. [Tables](#tables)
@@ -26,6 +26,9 @@ ___
   11. [Emoji](#emoji)
   12. [Images](#images)
 - Additional formatting with HTML
+  1. Superscript
+  2. Subscript
+  3. Toggle sections
 - References
 
 
@@ -54,8 +57,9 @@ Sample text
   <summary><h3>Headings</h3></summary>
 
 > _Headings_ are used to name documents or sections within documents. They define importance, from the most important `# Heading 1` to the least important `###### Heading 6`.
+> In defining sections, they are also useful when one wants to link content to a certain section. See [_Links_](#Links).
   
-```markdown
+  ```markdown
   # Heading 1
   ## Heading 2
   ### Heading 3
@@ -80,7 +84,7 @@ Sample text
 <details>
   <summary><h3>Paragraphs</h3></summary>
 
-  > _Headings_ are used to name documents or sections within documents. They define importance, from the most important `# Heading 1` to the least important `###### Heading 6`.
+  > To create a _paragraph_, add a blank line in-between two or more lines of text.
   
   ```markdown
   Line 1
@@ -101,7 +105,7 @@ Sample text
 </details>
 
 <details open>
-  <summary><h3>Italics and Bold</h3></summary>
+  <summary><h3>Italics, Bold and Strikethrough</h3></summary>
   
   > _Italic_ and **Bold** can be used to add emphasis.
   
@@ -109,6 +113,8 @@ Sample text
   _italic_
 
   **bold**
+
+  ~~strikethrough~~
 
   **_all in italics and bold_**
 
@@ -123,7 +129,9 @@ Sample text
 
   _italic_
   
-  **bold** or __bold__
+  **bold**
+
+  ~~strikethrough~~
   
   **_all in italics and bold_**
   
@@ -225,10 +233,14 @@ Sample text
 <details>
   <summary><h3>Embedding code</h3></summary>
   
-  inline `code`
+  > Code
   
   ```markdown
   inline `code`
+
+  \`\`\`
+  code block
+  \`\`\`
   ```
 
 </details>
