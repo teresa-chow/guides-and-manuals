@@ -534,7 +534,7 @@ ___
 
 [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) accessed 22 Oct. 2023
 
-@mota494's [READMESheet](https://github.com/mota494/READMESheet/blob/main/Markdown%20Sheet.md) accessed 22 Oct. 2023
+[@mota494](https://github.com/mota494)'s [READMESheet](https://github.com/mota494/READMESheet/blob/main/Markdown%20Sheet.md) accessed 22 Oct. 2023
 
 [Markdown guide: basic syntax](https://www.markdownguide.org/basic-syntax/) accessed 22 Oct. 2023
 
