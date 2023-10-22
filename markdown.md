@@ -444,7 +444,7 @@ and
   > The use of _emojis_ can help in conveying tone, expressing emotion or sometimes just in breaking monotony. 🥳
 
   ```
-  :EMOJICODE:
+  :emojicode:
   ```
 
 </details>
