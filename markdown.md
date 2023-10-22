@@ -54,12 +54,14 @@ ___
 
 Markdown's syntax is easy-to-learn and use, making it very fitting for software documentation due to its portability, flexibility and readability. It produces clear and consistent text.
 
+</br>
+
 ___
 ## How
 
 > _How to use markdown?_
 
-Sample text
+To use Markdown for software documentation, you need to select a Markdown editor or tool that meets your needs and preferences. There are many options available, such as online editors, desktop applications, or integrated development environments (IDEs). After that, you can write your documentation content using Markdown syntax and conventions, which you can find in various guides and resources online. To preview and test your documentation output, you can use online tools, such as Markdown Live Preview, Dillinger, or StackEdit, or offline tools, such as Pandoc, MarkdownPad, or Typora. Finally, you can publish and share your documentation online or offline, depending on your target audience and platform. You can use hosting services, such as GitHub Pages, GitBook, or Read the Docs, or export your documentation to other formats, such as HTML, PDF, or Word.
 
 <details>
   <summary><h3>Headings</h3></summary>
@@ -312,6 +314,8 @@ ___
 [Wikipedia: Markdown](https://en.wikipedia.org/wiki/Markdown) accessed 22 Oct. 2023
 
 [How do I use Markdown?](https://www.ibm.com/docs/en/SSYKAV?topic=train-how-do-use-markdown) accessed 22 Oct. 2023
+
+[LinkedIn: What are the benefits and challenges of using Markdown for software documentation?](https://www.linkedin.com/advice/0/what-benefits-challenges-using-markdown-software) accessed 22 Oct. 2023
 
 [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) accessed 22 Oct. 2023
 
