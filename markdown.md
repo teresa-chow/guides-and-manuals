@@ -1,9 +1,9 @@
-# Markdown: a guide
+# (GitHub Flavored) Markdown: a guide
 ![Static Badge](https://img.shields.io/badge/Guides%20and%20manuals-Markdown-%2315bbbb)
 
 _Having been recently introduced to GitHub and the world of programming, I rapidly understood the importance of comprehensive README files for communicating any project (mainly, because, most of the time, any other way I have no idea what's going on). Those are formatted using Markdown, or, alternatively, HTML for more formatting options._
 
-_This guide was developed from that understanding, with the hope it can be helpful to anyone out there._
+_This guide was developed from that understanding, with the hope it can be helpful to anyone else out there._
 
 > [!NOTE]
 > **Disclaimer:** _I come from a background in design, so I also cry a little when I see unclear information hierarchy. Plus, I'm a firm believer that allocating time for organization and communication can boost efficiency in the future._
@@ -37,14 +37,22 @@ ___
 
 > _What is markdown?_
 
-Sample text
+Markdown is a simplified markup language, adding formatting elements to plain text, created by John Gruber with the collaboration of Aaron Swartz in 2004.
+
+In truth, it's both a plain text formatting syntax, and a "a software tool, written in Perl, that converts the plain text formatting to HTML". [^1]
+
+[^1]: [Markdown 1.0.1 readme source code](https://web.archive.org/web/20040402182332/http://daringfireball.net/projects/markdown/) accessed 22 Oct. 2023
+
+GitHub Flavored Markdown (GFM) is a variant of Markdown based on CommonMark, following its specification apart from some added extensions (e.g.: _strikethrough, tables, alerts,..._). It suports HTML, and that's why one can use HTML tags instead of or in addition to Markdown formatting.
+
+</br>
 
 ___
 ## Why
 
 > _Why use markdown?_
 
-Sample text
+Markdown's syntax is easy-to-learn and use, making it very fitting for software documentation due to its portability, flexibility and readability. It produces clear and consistent text.
 
 ___
 ## How
@@ -57,7 +65,7 @@ Sample text
   <summary><h3>Headings</h3></summary>
 
 > _Headings_ are used to name documents or sections within documents. They define importance, from the most important `# Heading 1` to the least important `###### Heading 6`.
-> In defining sections, they are also useful when one wants to link content to a certain section. See [_Links_](#Links).
+> In defining sections, they are also useful when one wants to link content to a certain section. **See** _Links_.
   
   ```markdown
   # Heading 1
@@ -104,10 +112,10 @@ Sample text
 
 </details>
 
-<details open>
+<details>
   <summary><h3>Italics, Bold and Strikethrough</h3></summary>
   
-  > _Italic_ and **Bold** can be used to add emphasis.
+  > _Italic_, **Bold** and Strikethrough can be used to add emphasis. 
   
   ```markdown
   _italic_
@@ -135,9 +143,9 @@ Sample text
   
   **_all in italics and bold_**
   
-  _all in italics and **part in bold**_
+  _all in italics and **nested bold**_
   
-  **all in bold and _part in italics_**
+  **all in bold and _nested italics_**
 
 </details>
 
@@ -155,11 +163,53 @@ Sample text
 <details>
   <summary><h3>Lists</h3></summary>
 
+  **Unordered lists**
+
+  ```markdown
+  - 1st element
+  - 2nd element
+  - 3rd element
+  ```
+
+  **Ordered lists**
+
+  ```markdown
+  1. 1st element
+  2. 2nd element
+  3. 3rd element
+  ```
+
+  **Mixed and nested lists**
+
+  ```markdown
+  - 1st element
+    - ...
+    - ...
+    - ...
+  - 2nd element
+    - ...
+  - 3rd element
+
+  - 1st element
+    1. ...
+    2. ...
+    3. ...
+  - 2nd element
+    1. ...
+  - 3rd element
+  ```  
 
   </br>
 
   > Here is how they are displayed:
 
+  - 1st element
+  - 2nd element
+  - 3rd element
+
+  1. 1st element
+  2. 2nd element
+  3. 3rd element
 
 </details>
 
@@ -237,10 +287,6 @@ Sample text
   
   ```markdown
   inline `code`
-
-  \`\`\`
-  code block
-  \`\`\`
   ```
 
 </details>
@@ -255,8 +301,23 @@ Sample text
 
 </details>
 
+Additional formatting using HTML
+If your Markdown application supports HTML, you can use the <br> HTML tag.
+
 ___
 ## References
+
+[Markdown 1.0.1 readme source code](https://web.archive.org/web/20040402182332/http://daringfireball.net/projects/markdown/) accessed 22 Oct. 2023
+
+[Wikipedia: Markdown](https://en.wikipedia.org/wiki/Markdown) accessed 22 Oct. 2023
+
+[How do I use Markdown?](https://www.ibm.com/docs/en/SSYKAV?topic=train-how-do-use-markdown) accessed 22 Oct. 2023
+
+[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) accessed 22 Oct. 2023
+
+@mota494's [READMESheet](https://github.com/mota494/READMESheet/blob/main/Markdown%20Sheet.md) accessed 22 Oct. 2023
+
+[Markdown guide: basic syntax](https://www.markdownguide.org/basic-syntax/) accessed 22 Oct. 2023
 
 [[Markdown] An option to highlight a "Note" and "Warning" using blockquote (Beta) #16925](https://github.com/orgs/community/discussions/16925) accessed 22 Oct. 2023
 
