@@ -161,6 +161,8 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
 [text](link address)
 
 [text](#name-of-section)
+
+[text](./name-of-file-within-same-repo)
 ```
 
 </details>
@@ -373,14 +375,14 @@ and
   **Inline quoted code**
   
   ```markdown
-  inline `ft_putchar(char c);`
+  inline `#include <stdio.h>`
   ```
 
   </br>
 
   > Here is how it is displayed:
 
-  inline `ft_putchar(char c);`
+  inline `#include <stdio.h>`
   </br>
   
   ___
@@ -389,9 +391,12 @@ and
   
   ````
   ```c
+  #include <stdio.h>
+
   int  main(void)
   {
-    ft_putchar(char c);
+        printf("hello, world");
+        return (0);
   }
   ```
   ````
@@ -401,9 +406,12 @@ and
   > Here is how it is displayed:
 
   ```c
+  #include <stdio.h>
+
   int  main(void)
   {
-    ft_putchar(char c);
+        printf("hello, world");
+        return (0);
   }
   ```
 
