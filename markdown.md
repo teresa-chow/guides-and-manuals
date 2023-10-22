@@ -16,7 +16,7 @@ ___
   1. [Headings](#headings)
   2. [Paragraphs](#paragraphs)
   3. [Italics, Bold and Strikethrough](#italics-bold-and-strikethrough)
-  4. [Links](#links)
+  4. [Hyperlinks](#hyperlinks)
   5. [Lists](#lists)
   6. [Tables](#tables)
   7. [Quotes](#quotes)
@@ -61,7 +61,7 @@ ___
 
 > _How to use markdown?_
 
-To use Markdown for software documentation, you need to select a Markdown editor or tool that meets your needs and preferences. There are many options available, such as online editors, desktop applications, or integrated development environments (IDEs). After that, you can write your documentation content using Markdown syntax and conventions, which you can find in various guides and resources online. To preview and test your documentation output, you can use online tools, such as Markdown Live Preview, Dillinger, or StackEdit, or offline tools, such as Pandoc, MarkdownPad, or Typora. Finally, you can publish and share your documentation online or offline, depending on your target audience and platform. You can use hosting services, such as GitHub Pages, GitBook, or Read the Docs, or export your documentation to other formats, such as HTML, PDF, or Word.
+Just write your documentation content using (GitHub Flavored) Markdown syntax and conventions, as shown below.
 
 <details>
   <summary><h3>Headings</h3></summary>
@@ -151,8 +151,10 @@ To use Markdown for software documentation, you need to select a Markdown editor
 
 </details>
 
-<details open>
-  <summary><h3>Links</h3></summary>
+<details>
+  <summary><h3>Hyperlinks</h3></summary>
+
+  > _Hyperlinks_ are used as a way to navigate online content, pointing to a specific location. In the present context, we can use them either to link to different pages, documents, _etc._, or to sections within our own document.
 
 ```markdown
 [text](link address)
@@ -173,6 +175,15 @@ To use Markdown for software documentation, you need to select a Markdown editor
   - 3rd element
   ```
 
+  </br>
+
+  > Here is how they are displayed:
+
+  - 1st element
+  - 2nd element
+  - 3rd element
+  ___
+  
   **Ordered lists**
 
   ```markdown
@@ -205,10 +216,6 @@ To use Markdown for software documentation, you need to select a Markdown editor
 
   > Here is how they are displayed:
 
-  - 1st element
-  - 2nd element
-  - 3rd element
-
   1. 1st element
   2. 2nd element
   3. 3rd element
@@ -220,7 +227,7 @@ To use Markdown for software documentation, you need to select a Markdown editor
 
 </details>
 
-<details open>
+<details>
   <summary><h3>Quotes</h3></summary>
   
   ```markdown
