@@ -1,12 +1,12 @@
 # (GitHub Flavored) Markdown: a guide
 ![Static Badge](https://img.shields.io/badge/Guides%20and%20manuals-Markdown-%2315bbbb)
 
-_Having been recently introduced to GitHub and the world of programming, I rapidly understood the importance of comprehensive README files for communicating any project (mainly, because, most of the time, any other way I have no idea what's going on). Those are formatted using Markdown, or, alternatively, HTML for more formatting options._
+_Having been recently introduced to GitHub and the world of programming, I rapidly understood the importance of comprehensive README files for communicating any project (mainly, because, most of the time, any other way I have no idea what's going on). Those are formatted using (GitHub Flavored) Markdown, or, alternatively, HTML for more formatting options._
 
 _This guide was developed from that understanding, with the hope it can be helpful to anyone else out there._
 
 > [!NOTE]
-> **Disclaimer:** _I come from a background in design, so I also cry a little when I see unclear information hierarchy. Plus, I'm a firm believer that allocating time for organization and communication can boost efficiency in the future._
+> **Disclaimer:** _I come from a background in design, so I also cry a little when I see unclear information hierarchy. Plus, I'm a firm believer that allocating time for organization and communication can boost efficiency in the future. Feedback is more than welcome!_
 ___
 
 ### Table of contents
@@ -16,26 +16,27 @@ ___
   1. [Headings](#headings)
   2. [Paragraphs](#paragraphs)
   3. [Italics, Bold and Strikethrough](#italics-bold-and-strikethrough)
-  4. [Hyperlinks](#hyperlinks)
-  5. [Lists](#lists)
-  6. [Tables](#tables)
-  7. [Quotes](#quotes)
-  8. [Alerts: Note, Important and Warning _(Beta_)]()
-  9. [Dividers](dividers)
-  10. [Embedding Code]()
-  11. [Emoji](#emoji)
-  12. [Images](#images)
-- Additional formatting with HTML
-  1. Superscript
-  2. Subscript
-  3. Toggle sections
-- References
+  4. [Links](#links)
+  5. [Footnotes](#footnotes)
+  6. [Lists](#lists)
+  7. [Task lists (_Beta_)](#task-lists)
+  8. [Tables](#tables)
+  9. [Quotes](#quotes)
+  10. [Alerts (_Beta_)](#alerts)
+  11. [Quoting Code](#quoting-code)
+  12. [Dividers](#dividers)
+  13. [Emoji](#emoji)
+  14. [Images](#images)
+- [Additional formatting using HTML](#additional-formatting-using-html)
+  1. [Superscript and Subscript](#superscript-and-subscript)
+  2. [Toggle sections](#toggle-sections)
+- [References](#references)
 
 
 ___
 ## What
 
-> _What is markdown?_
+> _What is Markdown?_
 
 Markdown is a simplified markup language, adding formatting elements to plain text, created by John Gruber with the collaboration of Aaron Swartz in 2004.
 
@@ -43,14 +44,14 @@ In truth, it's both a plain text formatting syntax, and a "a software tool, writ
 
 [^1]: [Markdown 1.0.1 readme source code](https://web.archive.org/web/20040402182332/http://daringfireball.net/projects/markdown/) accessed 22 Oct. 2023
 
-GitHub Flavored Markdown (GFM) is a variant of Markdown based on CommonMark, following its specification apart from some added extensions (e.g.: _strikethrough, tables, alerts,..._). It suports HTML, and that's why one can use HTML tags instead of or in addition to Markdown formatting.
+GitHub Flavored Markdown (GFM) is a variant of Markdown based on CommonMark, following its specification apart from some added extensions (e.g.: _strikethrough, task lists, tables, alerts,..._). It suports HTML, and that's why one can use HTML tags instead of or in addition to Markdown formatting.
 
 </br>
 
 ___
 ## Why
 
-> _Why use markdown?_
+> _Why use Markdown?_
 
 Markdown's syntax is easy-to-learn and use, making it very fitting for software documentation due to its portability, flexibility and readability. It produces clear and consistent text.
 
@@ -59,7 +60,7 @@ Markdown's syntax is easy-to-learn and use, making it very fitting for software 
 ___
 ## How
 
-> _How to use markdown?_
+> _How to use Markdown?_
 
 Just write your documentation content using (GitHub Flavored) Markdown syntax and conventions, as shown below.
 
@@ -152,7 +153,7 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
 </details>
 
 <details>
-  <summary><h3>Hyperlinks</h3></summary>
+  <summary><h3>Links</h3></summary>
 
   > _Hyperlinks_ are used as a way to navigate online content, pointing to a specific location. In the present context, we can use them either to link to different pages, documents, _etc._, or to sections within our own document.
 
@@ -165,7 +166,24 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
 </details>
 
 <details>
+  <summary><h3>Footnotes</h3></summary>
+
+  > _Footnotes_ can be used for additional information or citations. You can check the bottom of this document to see how they are displayed.
+
+```markdown
+Text 1 [^1]
+Text 2 [^2]
+
+[^1]: Additional information on subject
+[^2]: [Display text](link address to source)
+```
+
+</details>
+
+<details>
   <summary><h3>Lists</h3></summary>
+
+  > _Lists_ can be useful in helping readers skim and scan, presenting a set of items in a clear manner, or outlining steps in a process.
 
   **Unordered lists**
 
@@ -192,6 +210,15 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
   3. 3rd element
   ```
 
+  </br>
+
+  > Here is how they are displayed:
+
+  1. 1st element
+  2. 2nd element
+  3. 3rd element
+  ___
+
   **Mixed and nested lists**
 
   ```markdown
@@ -202,6 +229,8 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
   - 2nd element
     - ...
   - 3rd element
+
+and
 
   - 1st element
     1. ...
@@ -216,19 +245,78 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
 
   > Here is how they are displayed:
 
-  1. 1st element
-  2. 2nd element
-  3. 3rd element
+  - 1st element
+    - ...
+    - ...
+    - ...
+  - 2nd element
+    - ...
+  - 3rd element
+
+and
+
+  - 1st element
+    1. ...
+    2. ...
+    3. ...
+  - 2nd element
+    1. ...
+  - 3rd element
+
+</details>
+
+<details>
+  <summary><h3>Task lists</h3></summary>
+
+  > A _task list_ is a set of tasks presented in separate lines with a clickable checkbox. You can select or deselect the checkboxes to mark the tasks as complete or incomplete.
+
+  ```markdown
+  - [x] Complete task
+  - [ ] To do
+  - [ ] To do
+  ```  
+
+  </br>
+
+  > Here is how they are displayed:
+
+  - [x] Complete task
+  - [ ] To do
+  - [ ] To do
 
 </details>
 
 <details>
   <summary><h3>Tables</h3></summary>
 
+  > Tables can be used to organize data that can't be adequately described in the text, commonly for being too detailed or extensive. They allow the reader to quickly see the results or patterns.
+
+  ```markdown
+  Column title 1 | Column title 2 | Column title 3
+  --|--|--
+  Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
+  Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
+  Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
+  Row 4, Col 1 | Row 4, Col 2 | ...
+  ```
+
+  </br>
+
+  > Here is how they are displayed:
+
+  Column title 1 | Column title 2 | Column title 3
+  --|--|--
+  Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
+  Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
+  Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
+  Row 4, Col 1 | Row 4, Col 2 | ...
+
 </details>
 
 <details>
   <summary><h3>Quotes</h3></summary>
+
+  Quoted text is indented, with a different type color.
   
   ```markdown
   > 1st level of indentation
@@ -247,9 +335,9 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
 </details>
 
 <details>
-  <summary><h3>Notes, warnings and alerts</h3></summary>
+  <summary><h3>Alerts</h3></summary>
 
-  > intro
+  > Alerts are used to highlight important information. Currently, there are three types, as shown below. Beware to not overuse them, as they will loose their intended impact.
   
   ```markdown
   > [!NOTE]
@@ -277,9 +365,54 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
 
 </details>
 
+<details>
+  <summary><h3>Quoting code</h3></summary>
+  
+  > You can both quote inline code within two single backticks, knowing that the text within them won't be formatted; or create code blocks using triple backticks. When using the latter, you can also enable syntax highlighting by adding an optional language identifier.
+
+  **Inline quoted code**
+  
+  ```markdown
+  inline `ft_putchar(char c);`
+  ```
+
+  </br>
+
+  > Here is how it is displayed:
+
+  inline `ft_putchar(char c);`
+  </br>
+  
+  ___
+
+  **Code block**
+  
+  ````
+  ```c
+  int  main(void)
+  {
+    ft_putchar(char c);
+  }
+  ```
+  ````
+  
+  </br>
+
+  > Here is how it is displayed:
+
+  ```c
+  int  main(void)
+  {
+    ft_putchar(char c);
+  }
+  ```
+
+</details>
 
 <details>
   <summary><h3>Dividers</h3></summary>
+
+  > _Dividers_, also known as _Horizontal Rules_, can be used to separate sections.
   
   ```markdown
   section 1
@@ -287,31 +420,106 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
   section 2
   ```
 
-</details>
+  </br>
 
-<details>
-  <summary><h3>Embedding code</h3></summary>
-  
-  > Code
-  
-  ```markdown
-  inline `code`
-  ```
+  > Here is how they are displayed:
+ 
+  section 1
+  ___
+  section 2
 
 </details>
 
 <details>
   <summary><h3>Emoji</h3></summary>
-  
+
+  > The use of _emojis_ can help in conveying tone, expressing emotion or sometimes just in breaking monotony. 🥳
+
+  ```
+  :EMOJICODE:
+  ```
+
 </details>
 
 <details>
   <summary><h3>Images</h3></summary>
 
+  > You can add an _Image_ either by linking to its source, or by uploading it by dragging and dropping, selecting or pasting it.
+
+  ```
+  ![Planet Earth](https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&q=80&w=2874&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  ```
+  
+  </br>
+
+  > Here is how it is displayed:
+
+  ![Planet Earth](https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&q=80&w=2874&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
 </details>
 
-Additional formatting using HTML
-If your Markdown application supports HTML, you can use the <br> HTML tag.
+___
+## Additional formatting using HTML
+
+<details>
+  <summary><h3>Superscript and Subscript</h3></summary>
+
+  > _Superscript_ and _Subscript_ provide additional options for formatting text.
+
+  ```html
+  This is a <sup>superscript</sup> text.
+
+  This is a <sub>subscript</sub> text.
+  ```
+  
+  </br>
+
+  > Here is how it is displayed:
+
+  This is a <sup>superscript</sup> text.
+
+  This is a <sub>subscript</sub> text.
+
+</details>
+
+<details>
+  <summary><h3>Toggle sections</h3></summary>
+
+  > By now, it's probably pretty obvious that you can add a toggle section... Default behavior would be toggled, but you can set it to display untoggled by default: `<details open>`. Also note that while `html` tags work well within `Markdown`, the other way around might not be true. So, just use `html tags` within `html`.
+
+  ```html
+<details open>
+  <summary><h3>Main toggle, that is also a heading</h3></summary>
+    <details>
+    <summary>Nested toggle 1</summary>
+          Content
+    </details>
+    <details>
+    <summary>Nested toggle 2</summary>
+          Content
+    </details>
+</details>
+  ```
+  
+  </br>
+
+  > Here is how it is displayed:
+
+<details open>
+  <summary><h3>Main toggle, that is also a heading</h3></summary>
+    <details>
+      <summary>Nested toggle 1</summary>
+          Content
+    </details>
+    <details>
+      <summary>Nested toggle 2</summary>
+          Content
+    </details>
+</details>
+
+</br>
+
+</details>
 
 ___
 ## References
@@ -330,8 +538,10 @@ ___
 
 [Markdown guide: basic syntax](https://www.markdownguide.org/basic-syntax/) accessed 22 Oct. 2023
 
+[GitHub Docs: About task lists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists) accessed 22 Oct. 2023
+
 [[Markdown] An option to highlight a "Note" and "Warning" using blockquote (Beta) #16925](https://github.com/orgs/community/discussions/16925) accessed 22 Oct. 2023
 
 </br>
 
-[⬆ back to top](#markdown-a-guide)
+[⬆ back to top](#github-flavored-markdown-a-guide)
