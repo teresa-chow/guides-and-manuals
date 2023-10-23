@@ -522,7 +522,7 @@ ___
 <details>
   <summary><h3>Toggle sections</h3></summary>
 
-  > By now, it's probably pretty obvious that you can add a toggle section... Default behavior would be toggled, but you can set it to display untoggled by default: `<details open>`. Also note that while `html` tags work well within `Markdown`, the other way around might not be true. So, just use `html tags` within `html`.
+  > By now, it's probably pretty obvious that you can add a toggle section... Default behavior would be toggled, but you can set it to display untoggled by default: `<details open>`. Also note that while `html` tags work well within `Markdown`, the other way around might not be true. So, just use `html tags` within `html` whenever possible.
 
   ```html
 <details open>
