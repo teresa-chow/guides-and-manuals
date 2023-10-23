@@ -339,7 +339,7 @@ and
 <details>
   <summary><h3>Alerts</h3></summary>
 
-  > Alerts are used to highlight important information. Currently, there are three types, as shown below. Beware to not overuse them, as they will loose their intended impact.
+  > _Alerts_ are used to highlight important information. Currently, there are three types, as shown below. Beware not to overuse them, as they will loose their intended impact.
   
   ```markdown
   > [!NOTE]
