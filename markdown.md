@@ -370,7 +370,7 @@ and
 <details>
   <summary><h3>Quoting code</h3></summary>
   
-  > You can both quote inline code within two single backticks, knowing that the text within them won't be formatted; or create code blocks using triple backticks. When using the latter, you can also enable syntax highlighting by adding an optional language identifier.
+  > You can both quote inline code within two `single backticks`, knowing that the text within them won't be formatted; or create code blocks using `triple backticks`. When using the latter, you can also enable syntax highlighting by adding an optional `language identifier`.
 
   **Inline quoted code**
   
@@ -452,7 +452,7 @@ and
 <details>
   <summary><h3>Images</h3></summary>
 
-  > You can add an _Image_ either by linking to its source, or by uploading it by dragging and dropping, selecting or pasting it.
+  > You can add an _image_ either by linking to its source, or by uploading it by dragging and dropping, selecting or pasting it.
 
   ```
   ![Planet Earth](https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&q=80&w=2874&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
