@@ -248,12 +248,12 @@ and
   > Here is how they are displayed:
 
   - 1st element
-    - ...
-    - ...
-    - ...
-  - 2nd element
-    - ...
-  - 3rd element
+     - ...
+     - ...
+     - ...
+   - 2nd element
+     - ...
+   - 3rd element
 
 and
 
@@ -274,6 +274,7 @@ and
 
   ```markdown
   - [x] Complete task
+    - [x] Completed subtask
   - [ ] To do
   - [ ] To do
   ```  
@@ -283,6 +284,7 @@ and
   > Here is how they are displayed:
 
   - [x] Complete task
+    - [x] Completed subtask
   - [ ] To do
   - [ ] To do
 
@@ -292,7 +294,33 @@ and
   <summary><h3>Tables</h3></summary>
 
   > Tables can be used to organize data that can't be adequately described in the text, commonly for being too detailed or extensive. They allow the reader to quickly see the results or patterns.
+  
+  **Aligned table**
+  
+  ```markdown
+  Left-aligned | Center-aligned | Right-aligned
+  :--|:--:|--:
+  Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
+  Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
+  Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
+  Row 4, Col 1 | Row 4, Col 2 | ...
+  ```
 
+  </br>
+
+  > Here is how they are displayed:
+
+  Left-aligned | Center-aligned | Right-aligned
+  :--|:--:|--:
+  Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
+  Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
+  Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
+  Row 4, Col 1 | Row 4, Col 2 | ...
+
+  ___
+  
+  **Simple table**
+  
   ```markdown
   Column title 1 | Column title 2 | Column title 3
   --|--|--
