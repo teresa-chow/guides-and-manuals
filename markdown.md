@@ -28,8 +28,9 @@ ___
   14. [Images](#images)
 - [Additional formatting using HTML](#additional-formatting-using-html)
   1. [Superscript and Subscript](#superscript-and-subscript)
-  2. [Aligning elements](#aligning-elements)
-  3. [Toggle sections](#toggle-sections)
+  2. [Hotkeys](#hotkeys)
+  3. [Aligning elements](#aligning-elements)
+  4. [Toggle sections](#toggle-sections)
 - [References](#references)
 
 
@@ -70,46 +71,46 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
 > _Headings_ are used to name documents or sections within documents. They define importance, from the most important `# Heading 1` to the least important `###### Heading 6`.
 > In defining sections, they are also useful when one wants to link content to a certain section. **See** _Links_.
   
-  ```markdown
-  # Heading 1
-  ## Heading 2
-  ### Heading 3
-  #### Heading 4
-  ##### Heading 5
-  ######  Heading 6
-  ```
+```markdown
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+######  Heading 6
+```
 
-  </br>
+</br>
 
-  > Here is how they are displayed:
+> Here is how they are displayed:
 
-  # Heading 1
-  ## Heading 2
-  ### Heading 3
-  #### Heading 4
-  ##### Heading 5
-  ######  Heading 6
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+######  Heading 6
 
 </details>
 
 <details>
   <summary><h3>Paragraphs</h3></summary>
 
-  > To create a _paragraph_, add a blank line in-between two or more lines of text.
+> To create a _paragraph_, add a blank line in-between two or more lines of text.
   
-  ```markdown
-  Line 1
+```markdown
+Line 1
 
-  Line 2
-  ```
+Line 2
+```
 
-  </br>
+</br>
 
-  > Here is how they are displayed:
+> Here is how they are displayed:
 
-  Line 1
+Line 1
 
-  Line 2
+Line 2
 
   
 
@@ -118,44 +119,44 @@ Just write your documentation content using (GitHub Flavored) Markdown syntax an
 <details>
   <summary><h3>Italics, Bold and Strikethrough</h3></summary>
   
-  > _Italic_, **Bold** and Strikethrough can be used to add emphasis. 
+> _Italic_, **Bold** and Strikethrough can be used to add emphasis. 
   
-  ```markdown
-  _italic_
+```markdown
+_italic_
 
-  **bold**
+**bold**
 
-  ~~strikethrough~~
+~~strikethrough~~
 
-  **_all in italics and bold_**
+**_all in italics and bold_**
 
-  _all in italics and **nested bold**_
+_all in italics and **nested bold**_
 
-  **all in bold and _nested italics_**
-  ```
+**all in bold and _nested italics_**
+```
 
-  </br>
+</br>
 
-  > Here is how they are displayed:
+> Here is how they are displayed:
 
-  _italic_
+_italic_
   
-  **bold**
+**bold**
 
-  ~~strikethrough~~
+~~strikethrough~~
   
-  **_all in italics and bold_**
+**_all in italics and bold_**
   
-  _all in italics and **nested bold**_
+_all in italics and **nested bold**_
   
-  **all in bold and _nested italics_**
+**all in bold and _nested italics_**
 
 </details>
 
 <details>
   <summary><h3>Links</h3></summary>
 
-  > _Hyperlinks_ are used as a way to navigate online content, pointing to a specific location. In the present context, we can use them either to link to different pages, documents, _etc._, or to sections within our own document.
+> _Hyperlinks_ are used as a way to navigate online content, pointing to a specific location. In the present context, we can use them either to link to different pages, documents, _etc._, or to sections within our own document.
 
 ```markdown
 [text](www.link-address.com)
@@ -185,312 +186,310 @@ Text 2 [^2]
 <details>
   <summary><h3>Lists</h3></summary>
 
-  > _Lists_ can be useful in helping readers skim and scan, presenting a set of items in a clear manner, or outlining steps in a process.
+> _Lists_ can be useful in helping readers skim and scan, presenting a set of items in a clear manner, or outlining steps in a process.
 
-  **Unordered lists**
+**Unordered lists**
 
-  ```markdown
-  - 1st element
-  - 2nd element
-  - 3rd element
-  ```
+```markdown
+- 1st element
+- 2nd element
+- 3rd element
+```
 
-  </br>
+</br>
 
-  > Here is how they are displayed:
+> Here is how they are displayed:
 
-  - 1st element
-  - 2nd element
-  - 3rd element
-  ___
+- 1st element
+- 2nd element
+- 3rd element
+___
   
-  **Ordered lists**
+**Ordered lists**
 
-  ```markdown
-  1. 1st element
-  2. 2nd element
-  3. 3rd element
-  ```
+```markdown
+1. 1st element
+2. 2nd element
+3. 3rd element
+```
 
-  </br>
+</br>
 
-  > Here is how they are displayed:
+> Here is how they are displayed:
 
-  1. 1st element
-  2. 2nd element
-  3. 3rd element
-  ___
+1. 1st element
+2. 2nd element
+3. 3rd element
+___
 
-  **Mixed and nested lists**
+**Nested and mixed lists**
 
-  ```markdown
-  - 1st element
-    - ...
-    - ...
-    - ...
-  - 2nd element
-    - ...
-  - 3rd element
-
-and
-
-  - 1st element
-    1. ...
-    2. ...
-    3. ...
-  - 2nd element
-    1. ...
-  - 3rd element
-  ```  
-
-  </br>
-
-  > Here is how they are displayed:
-
-  - 1st element
-     - ...
-     - ...
-     - ...
-   - 2nd element
-     - ...
-   - 3rd element
+```markdown
+- 1st element
+  - ...
+  - ...
+  - ...
+- 2nd element
+  - ...
+- 3rd element
 
 and
 
-  - 1st element
-    1. ...
-    2. ...
-    3. ...
-  - 2nd element
-    1. ...
-  - 3rd element
+- 1st element
+  1. ...
+  2. ...
+  3. ...
+- 2nd element
+  1. ...
+- 3rd element
+```  
+
+</br>
+
+> Here is how they are displayed:
+
+- 1st element
+   - ...
+   - ...
+   - ...
+- 2nd element
+   - ...
+- 3rd element
+
+and
+
+- 1st element
+  1. ...
+  2. ...
+  3. ...
+- 2nd element
+  1. ...
+- 3rd element
 
 </details>
 
 <details>
   <summary><h3>Task lists</h3></summary>
 
-  > A _task list_ is a set of tasks presented in separate lines with a clickable checkbox. You can select or deselect the checkboxes to mark the tasks as complete or incomplete.
+> A _task list_ is a set of tasks presented in separate lines with a clickable checkbox. You can select or deselect the checkboxes to mark the tasks as complete or incomplete.
 
-  ```markdown
-  - [x] Complete task
-    - [x] Completed subtask
-  - [ ] To do
-  - [ ] To do
-  ```  
+```markdown
+- [x] Complete task
+  - [x] Completed subtask
+- [ ] To do
+- [ ] To do
+```  
 
-  </br>
+</br>
 
-  > Here is how they are displayed:
+> Here is how it is displayed:
 
-  - [x] Complete task
-    - [x] Completed subtask
-  - [ ] To do
-  - [ ] To do
+- [x] Complete task
+  - [x] Completed subtask
+- [ ] To do
+- [ ] To do
 
 </details>
 
 <details>
   <summary><h3>Tables</h3></summary>
 
-  > Tables can be used to organize data that can't be adequately described in the text, commonly for being too detailed or extensive. They allow the reader to quickly see the results or patterns.
+> Tables can be used to organize data that can't be adequately described in the text, commonly for being too detailed or extensive. They allow the reader to quickly see the results or patterns.
   
-  **Aligned table**
+```markdown
+Column header 1 | Column header 2 | Column header 3
+--|--|--
+Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
+Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
+Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
+Row 4, Col 1 | Row 4, Col 2 | ...
+```
+
+</br>
+
+> Here is how they are displayed:
+
+Column header 1 | Column header 2 | Column header 3
+--|--|--
+Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
+Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
+Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
+Row 4, Col 1 | Row 4, Col 2 | ...
+
+___
+
+**Left, center and right aligned table**
   
-  ```markdown
-  Left-aligned | Center-aligned | Right-aligned
-  :--|:--:|--:
-  Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
-  Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
-  Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
-  Row 4, Col 1 | Row 4, Col 2 | ...
-  ```
+```markdown
+Left-aligned header| Center-aligned header | Right-aligned header
+:--|:--:|--:
+Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
+Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
+Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
+Row 4, Col 1 | Row 4, Col 2 | ...
+```
 
-  </br>
+</br>
 
-  > Here is how they are displayed:
+> Here is how they are displayed:
 
-  Left-aligned | Center-aligned | Right-aligned
-  :--|:--:|--:
-  Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
-  Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
-  Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
-  Row 4, Col 1 | Row 4, Col 2 | ...
-
-  ___
-  
-  **Simple table**
-  
-  ```markdown
-  Column title 1 | Column title 2 | Column title 3
-  --|--|--
-  Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
-  Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
-  Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
-  Row 4, Col 1 | Row 4, Col 2 | ...
-  ```
-
-  </br>
-
-  > Here is how they are displayed:
-
-  Column title 1 | Column title 2 | Column title 3
-  --|--|--
-  Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
-  Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
-  Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
-  Row 4, Col 1 | Row 4, Col 2 | ...
+Left-aligned header | Center-aligned header | Right-aligned header
+:--|:--:|--:
+Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3
+Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3
+Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3
+Row 4, Col 1 | Row 4, Col 2 | ...
 
 </details>
 
 <details>
   <summary><h3>Quotes</h3></summary>
 
-  Quoted text is indented, with a different type color.
+_Quoted text_ is indented, with a different type color.
   
-  ```markdown
-  > 1st level of indentation
-  >> 2nd level ...
-  >>> 3rd level ...
-  ```
+```markdown
+> 1st level of indentation
+>> 2nd level ...
+>>> 3rd level ...
+```
 
-  </br>
+</br>
 
-  Here is how they are displayed:
+Here is how they are displayed:
 
-  > 1st level of indentation
-  > > 2nd level ...
-  > > >  3rd level ...
+> 1st level of indentation
+> > 2nd level ...
+> > >  3rd level ...
 
 </details>
 
 <details>
   <summary><h3>Alerts</h3></summary>
 
-  > _Alerts_ are used to highlight important information. Currently, there are three types, as shown below. Beware not to overuse them, as they will loose their intended impact.
+> _Alerts_ are used to highlight important information. Currently, there are three types, as shown below. Beware not to overuse them, as they will loose their intended impact.
   
-  ```markdown
-  > [!NOTE]
-  > Highlighting information to take into account, even when skimming.
+```markdown
+> [!NOTE]
+> Highlighting information to take into account, even when skimming.
 
-  > [!IMPORTANT]
-  > Crucial information for users to succeed.
+> [!IMPORTANT]
+> Crucial information for users to succeed.
 
-  > [!WARNING]
-  > Critical content requiring immediate attention.
-  ```
+> [!WARNING]
+> Critical content requiring immediate attention.
+```
 
-  </br>
+</br>
 
-  > Here is how they are displayed:
+> Here is how they are displayed:
   
-  > [!NOTE]
-  > Highlighting information to take into account, even when skimming.
+> [!NOTE]
+> Highlighting information to take into account, even when skimming.
 
-  > [!IMPORTANT]
-  > Crucial information for users to succeed.
+> [!IMPORTANT]
+> Crucial information for users to succeed.
 
-  > [!WARNING]
-  > Critical content requiring immediate attention.
+> [!WARNING]
+> Critical content requiring immediate attention.
 
 </details>
 
 <details>
   <summary><h3>Quoting code</h3></summary>
   
-  > You can both quote inline code within two `single backticks`, knowing that the text within them won't be formatted; or create code blocks using `triple backticks`. When using the latter, you can also enable syntax highlighting by adding an optional `language identifier`.
+> You can both quote inline code within two `single backticks`, knowing that the text within them won't be formatted; or create code blocks using `triple backticks`. When using the latter, you can also enable syntax highlighting by adding an optional `language identifier`.
 
-  **Inline quoted code**
+**Inline quoted code**
   
-  ```markdown
-  inline `#include <stdio.h>`
-  ```
+```markdown
+inline `#include <stdio.h>`
+```
 
-  </br>
+</br>
 
-  > Here is how it is displayed:
+> Here is how it is displayed:
 
-  inline `#include <stdio.h>`
-  </br>
+inline `#include <stdio.h>`
+</br>
   
-  ___
+___
 
-  **Code block**
+**Code block**
   
-  ````
-  ```c
-  #include <stdio.h>
+````
+```c
+#include <stdio.h>
 
-  int  main(void)
-  {
-        printf("hello, world");
-        return (0);
-  }
-  ```
-  ````
+int  main(void)
+{
+    printf("Hello, World!");
+    return (0);
+}
+```
+````
   
-  </br>
+</br>
 
-  > Here is how it is displayed:
+> Here is how it is displayed:
 
-  ```c
-  #include <stdio.h>
+```c
+#include <stdio.h>
 
-  int  main(void)
-  {
-        printf("hello, world");
-        return (0);
-  }
-  ```
+int  main(void)
+{
+    printf("Hello, World!");
+    return (0);
+}
+```
 
 </details>
 
 <details>
   <summary><h3>Dividers</h3></summary>
 
-  > _Dividers_, also known as _Horizontal Rules_, can be used to separate sections.
+> _Dividers_, also known as _Horizontal Rules_, can be used to separate sections.
   
-  ```markdown
-  section 1
-  ___
-  section 2
-  ```
+```markdown
+section 1
+___
+section 2
+```
 
-  </br>
+</br>
 
-  > Here is how they are displayed:
+> Here is how they are displayed:
  
-  section 1
-  ___
-  section 2
+section 1
+___
+section 2
 
 </details>
 
 <details>
   <summary><h3>Emoji</h3></summary>
 
-  > The use of _emojis_ can help in conveying tone, expressing emotion or sometimes just in breaking monotony. 🥳
+> The use of _emojis_ can help in conveying tone, expressing emotion or sometimes just in breaking monotony. 🥳
 
-  ```
-  :emojicode:
-  ```
+```
+:emojicode:
+```
 
 </details>
 
 <details>
   <summary><h3>Images</h3></summary>
 
-  > You can add an _image_ either by linking to its source, or by uploading it by dragging and dropping, selecting or pasting it.
+> You can add an _image_ either by linking to its source, or by uploading it by dragging and dropping, selecting or pasting it.
 
-  ```
-  ![Planet Earth](https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&q=80&w=2874&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-  ```
+```
+![Planet Earth](https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&q=80&w=2874&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+```
   
-  </br>
+</br>
 
-  > Here is how it is displayed:
+> Here is how it is displayed:
 
-  ![Planet Earth](https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&q=80&w=2874&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![Planet Earth](https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&q=80&w=2874&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 </details>
 
@@ -500,59 +499,76 @@ ___
 <details>
   <summary><h3>Superscript and Subscript</h3></summary>
 
-  > _Superscript_ and _Subscript_ provide additional options for formatting text.
+> _Superscript_ and _Subscript_ provide additional options for formatting text.
 
-  ```html
-  This is a <sup>superscript</sup> text.
+```html
+This is a <sup>superscript</sup> text.
 
-  This is a <sub>subscript</sub> text.
-  ```
+This is a <sub>subscript</sub> text.
+```
   
-  </br>
+</br>
 
-  > Here is how it is displayed:
+> Here is how it is displayed:
 
-  This is a <sup>superscript</sup> text.
+This is a <sup>superscript</sup> text.
 
-  This is a <sub>subscript</sub> text.
+This is a <sub>subscript</sub> text.
+
+</details>
+
+<details>
+  <summary><h3>Hotkeys</h3></summary>
+
+> _Hotkeys_ are indicated by the `<kbd>` tag.
+
+```html
+Example: <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>del</kbd>.
+```
+  
+</br>
+
+> Here is how it is displayed:
+
+Example: <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>del</kbd>.
 
 </details>
 
 <details>
   <summary><h3>Aligning elements</h3></summary>
 
-  > The `align` attribute can have one of the following values: `left`, `right`, `center` and `justify`. It can be used with different elements.
+> The `align` attribute can have one of the following values: `left`, `right`, `center` and `justify`. It can be used with different elements.
 
-  ```html
-  <p align="left">Left-aligned paragraph</p>
+```html
+<p align="left">Left-aligned paragraph</p>
  
-  <div align="center"><h3>Center-aligned heading</h3><p>and paragraph within division (section)</p></div>
+<div align="center"><h3>Center-aligned heading</h3><p>and paragraph within division (section)</p></div>
  
-  <h4 align="right">Right-aligned heading</h4>
+<h4 align="right">Right-aligned heading</h4>
 
-  <p align="justify"><em>Justified and emphasized text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
-  ```
+<p align="justify"><em>Justified and emphasized text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
+```
   
-  </br>
+</br>
 
-  > Here is how it it displayed:
+> Here is how it it displayed:
 
-  <p align="left">Left-aligned paragraph</p>
+<p align="left">Left-aligned paragraph</p>
   
-  <div align="center"><h3>Center-aligned heading</h3><p>and paragraph within division (section)</p></div>
+<div align="center"><h3>Center-aligned heading</h3><p>and paragraph within division (section)</p></div>
  
-  <h4 align="right">Right-aligned heading</h4>
+<h4 align="right">Right-aligned heading</h4>
 
-  <p align="justify"><em>Justified and emphasized text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
+<p align="justify"><em>Justified and emphasized text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
 
 </details>
 
 <details>
   <summary><h3>Toggle sections</h3></summary>
+  
+> By now, it's probably pretty obvious that you can add a toggle section... Default behavior would be toggled, but you can set it to display untoggled by default: `<details open>`. Also note that while `html` tags work well within `Markdown`, the other way around might not be true. So, just use `html tags` within `html` whenever possible.
 
-  > By now, it's probably pretty obvious that you can add a toggle section... Default behavior would be toggled, but you can set it to display untoggled by default: `<details open>`. Also note that while `html` tags work well within `Markdown`, the other way around might not be true. So, just use `html tags` within `html` whenever possible.
-
-  ```html
+```html
 <details open>
   <summary><h3>Main toggle, that is also a heading</h3></summary>
     <details>
@@ -564,11 +580,11 @@ ___
           Content
     </details>
 </details>
-  ```
+```
   
-  </br>
+</br>
 
-  > Here is how it is displayed:
+> Here is how it is displayed:
 
 <details open>
   <summary><h3>Main toggle, that is also a heading</h3></summary>
