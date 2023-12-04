@@ -369,28 +369,21 @@ Here is how they are displayed:
 > _Alerts_ are used to highlight important information. Currently, there are three types, as shown below. Beware not to overuse them, as they will loose their intended impact.
   
 ```markdown
-> [!NOTE]
-> Highlighting information to take into account, even when skimming.
+>[!NOTE]
+>Highlighting information to take into account, even when skimming.
 
-> [!IMPORTANT]
-> Crucial information for users to succeed.
+>[!IMPORTANT]
+>Crucial information for users to succeed.
 
-> [!WARNING]
-> Critical content requiring immediate attention.
+>[!WARNING]
+>Critical content requiring immediate attention.
 ```
 
 </br>
 
 > Here is how they are displayed:
-  
-> [!NOTE]
-> Highlighting information to take into account, even when skimming.
 
-> [!IMPORTANT]
-> Crucial information for users to succeed.
-
-> [!WARNING]
-> Critical content requiring immediate attention.
+![Github Flavored MD alerts](https://github.com/teresa-chow/guides-and-manuals/assets/146003005/50f1f7a4-9480-47ab-806f-bd135dae5b44)
 
 </details>
 
