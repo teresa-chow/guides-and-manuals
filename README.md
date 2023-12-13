@@ -8,14 +8,3 @@ ___
 File | Title
 --|--
 [markdown.md](./markdown.md) | (GitHub Flavored) Markdown: a guide
-
-
-</br>
-
-___
-
-## :gear: Config files
-
-File | Title
---|--
-[.vimrc](./.vimrc) | My current .vimrc
