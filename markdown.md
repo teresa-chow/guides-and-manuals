@@ -372,8 +372,14 @@ Here is how they are displayed:
 >[!NOTE]
 >Highlighting information to take into account, even when skimming.
 
+>[!TIP]
+>Optional information to help a user be more successful.
+
 >[!IMPORTANT]
 >Crucial information for users to succeed.
+
+>[!CAUTION]
+>Negative potential consequences of an action.
 
 >[!WARNING]
 >Critical content requiring immediate attention.
@@ -383,7 +389,7 @@ Here is how they are displayed:
 
 > Here is how they are displayed:
 
-![Github Flavored MD alerts](https://github.com/teresa-chow/guides-and-manuals/assets/146003005/50f1f7a4-9480-47ab-806f-bd135dae5b44)
+<img width="521" alt="Github Flavored MD alerts" src="https://github.com/user-attachments/assets/af6c2fd7-1530-4c98-a406-60a028a40815">
 
 </details>
 
